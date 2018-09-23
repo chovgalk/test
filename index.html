@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная страница</title>
+	
+<style>
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #06E301;
+	}
+
+	li {
+    float: left;
+	}
+
+	li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	}
+
+	li a:hover:not(.active) {		/* hover-Изменение цвета ссылки при наведении
+									active- определяет стиль для активной ссылки. Активной ссылка становится при нажатии на нее */
+    background-color:#0292B1;
+	}
+
+	.active {
+    background-color:#06014B;
+	}
+</style>
+</head>
+<body>
+
+	
+	<ul>
+		<li><a class="active" href="index.html">Главная</a></li>
+		<li><a href="News/News.html">Новости</a></li>
+		<li><a href="Contact/Contakt.html">Координаты</a></li>
+		<li><a href="history/history.html">История</a></li>
+	</ul>
+	
+</body>
+</html>
