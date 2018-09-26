@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;/*  для всех тегов доминирует шерина */
+}
+main::after{
+    clear: both; /* псевдо-класс, позволяет добавить в конец */
+    display: block;
+    content: "";
+}
+[class*="col-"] /* для всех клаасов имя которых начинаеться на col? это обязательно вводиться в [] */
+{
+ float:left;
+    padding:30px;}
+
+    [class*="col-"]{
+     width: 100%; } /* это для мобильных телефонов */
+   
+    @media (min-width: 600px) {
+    .col-m-1{
+        width: 8.333333333333333%;
+        
+    }   
+
+    .col-m-2{
+        width: 16.66666666666667%;
+        
+    } 
+    .col-m-3{
+        width: 25%;
+        
+    }
+    .col-m-4{
+        width: 33.33333333333333%;
+        
+    }
+.col-m-5{
+        width: 41.66666666666667%;
+        
+    }
+    .col-m-6{
+        width: 50%;
+        
+    }
+    .col-m-7{
+        width: 58.33333333333333%;
+        
+    }
+
+.col-m-8{
+        width: 66.66666666666667%;
+        
+    }
+    .col-m-9{
+        width: 75%;
+        
+    }
+    .col-m-10{
+        width: 83.33333333333333%;
+        
+    }
+    .col-m-11{
+        width: 91.66666666666667%;
+        
+    }
+    .col-m-12{
+        width: 100%;
+        
+    }
+}
+@media (min-width: 768px) {
+    .col-1{
+        width: 8.333333333333333%;
+        
+    }   
+
+    .col-2{
+        width: 16.66666666666667%;
+        
+    } 
+    .col-3{
+        width: 25%;
+        
+    }
+    .col-4{
+        width: 33.33333333333333%;
+        
+    }
+    .col-5{
+        width: 41.66666666666667%;
+        
+    }
+    .col-6{
+        width: 50%;
+        
+    }
+    .col-7{
+        width: 58.33333333333333%;
+        
+    }
+
+    .col-8{
+        width: 66.66666666666667%;
+        
+    }
+    .col-9{
+        width: 75%;
+        
+    }
+    .col-10{
+        width: 83.33333333333333%;
+        
+    }
+    .col-11{
+        width: 91.66666666666667%;
+        
+    }
+    .col-12{
+        width: 100%;
+        
+    }
+
+
+.sapka{
+    font-family:Times New Roman; /* используемый шрифт */
+    font-size: 40px;    /* кегель-размер букв */
+    line-height: 30px;  /* интерлильяж-растояние между строками */
+    text-indent: 35px;  /* абзацный отступ или красная строка */
+    text-align: center;
+    color:#FEBA37;
+    background: #005219;
+    border-bottom: 10px solid #FEBA37; /* рамка: толщина стиль цвет */
+    margin: 10px;  /*  внешнее поле */
+    padding: 10px; /* внутренний отступ */
+
+}
+
+
+.vrezka{
+    font-family:Times New Roman; /* используемый шрифт */
+    font-size: 40px;    /* кегель-размер букв */
+    line-height: 50px;  /* интерлильяж-растояние между строками */
+    text-indent: 35px;  /* абзацный отступ или красная строка */
+    text-align: center;
+    color:#005219;
+    margin: 20px;  /*  внешнее поле */
+    padding: 10px; /* внутренний отступ */
+
+}
+
+.text1{
+    font-family: Pragmatika; /* используемый шрифт */
+    font-size: 25px;    /* кегель-размер букв */
+    line-height: 35px;  /* интерлильяж-растояние между строками */
+    text-indent: 0px;  /* абзацный отступ или красная строка */
+    text-align: justify;
+    word-wrap: break-word; /* перенос слов автоматический */
+    
+}
+@font-face{
+font-family: acquetscript;
+src: url('../fonts/acquetscript.eot');
+src: local('☺'), url('../fonts/acquetscript.woff') format('woff'), url('../fonts/acquetscript.ttf') format('truetype'), url('../fonts/acquetscript.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text2{
+    font-family: 'acquetscript';
+    font-size: 36px;
+    line-height: 50px;
+    text-indent: 35px;
+    width: 70%;
+    margin: 3px auto;
+    text-align: left;
+    padding: 10px;
+}
+.text_ramka{
+    font-family: Pragmatika; /* используемый шрифт */
+    font-size: 30px;    /* кегель-размер букв */
+    line-height: 40px;  /* интерлильяж-растояние между строками */
+    text-indent: 40px;  /* абзацный отступ или красная строка */
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
+    border: 5px dotted #005219;
+    background: #FCE357;
+}
+.text_podherk{
+        border-bottom: 5px solid red;
+}
+
+.first-line {
+  font-size: 35px;
+  text-indent: 0px;
+  padding: 10px 15px;
+  margin-right: 10px; 
+  background: #005219;
+  color: #FEBA37;
+  float: left;
+  border-bottom: 5px double #FEBA37;
+    font-weight: bold;
+}
+
+
+
